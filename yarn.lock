@@ -1020,10 +1020,6 @@ braces@^2.3.1:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-braintree-paypal-client-config@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/braintree-paypal-client-config/-/braintree-paypal-client-config-1.0.3.tgz#cb9b9ae0e4774ec3557320c007c1fc7a1314fbbd"
-
 brorand@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
@@ -3976,23 +3972,15 @@ path-type@^2.0.0:
   dependencies:
     pify "^2.0.0"
 
-paypal-braintree-web-client@^1.0.7:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/paypal-braintree-web-client/-/paypal-braintree-web-client-1.0.10.tgz#72576415641c734eaf140c2b66c86c49a971546e"
-  dependencies:
-    zalgo-promise "^1.0.22"
-
-paypal-checkout@^4.0.191:
-  version "4.0.191"
-  resolved "https://registry.yarnpkg.com/paypal-checkout/-/paypal-checkout-4.0.191.tgz#9f3aef44bd977af1524198e6f1c46d2108181e93"
+paypal-checkout@^4.0.218:
+  version "4.0.218"
+  resolved "https://registry.yarnpkg.com/paypal-checkout/-/paypal-checkout-4.0.218.tgz#fa6e2ca3827ee7e782e3bf8c4c933bad17886831"
   dependencies:
     Base64 "^1.0.0"
     beaver-logger "^3.0.6"
     bowser "^1.7.1"
-    braintree-paypal-client-config "^1.0.2"
     cross-domain-utils "^2.0.1"
     hi-base32 "^0.5.0"
-    paypal-braintree-web-client "^1.0.7"
     post-robot "^8.0.0"
     xcomponent "^6.0.0"
     zalgo-promise "^1.0.10"
