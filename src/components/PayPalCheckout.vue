@@ -39,7 +39,10 @@ export default {
     },
     onAuthorize(data, actions) {
       const vue = this;
-      vue.$emit('payment-authorized', data);
+      vue.$emit('payment-authorized', {
+        data,
+        actions,
+      });
 
       if (this.commit) {
         return actions.payment.execute().then((response) => {
